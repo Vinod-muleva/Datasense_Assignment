@@ -19,7 +19,7 @@ CMD ["python", "app.py]
 
 1.Create Image; docker build -t chatbot .   
 
-# Stwep 3 : Create Container 
+# Step 3 : Create Container 
 
 1. docker run -it -p 8001:8501 --env.file  .env ( instance id  ) 
 
